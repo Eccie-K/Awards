@@ -18,11 +18,14 @@ Esther Kirui
 
 <h2>Behaviour Driven Development</h2>
 
-|   Behaviour   |   Input                       |   Output                          |
-|   ----------  | ----                          |   -------                         |
-| Signup        |  Username,password,and email  |     Takes user to login page      |               |   ------      |   ------                      |                                   |    
-| Login         |  Username, Password           | redirected to mainpage page       | 
-
+|   Behaviour                                   |   Input                               |   Output                            |
+|   ----------                                  | ----                                  |   -------                           |
+| Signup form is displayed                       |  Username,password,and email          | User created, directs to login page|   ||User authentication,login page displayed       | Login required,enter username,password| Redirects to home page             |   | |View featured sites                           | scroll,click on featured sites        | Redirects to submitted sites       |
+| Submit project site                           | Scroll on homepage and click on submit| Redirects to submission page       |    
+| View actual project                           | click on view site                   | redirects to project site
+|   View Profile                                |  Click on Profile                     |  User's profile information         |
+|                   
+                                                           
 
 
 <h2>Set Up Instructions and Requirements</h2>
