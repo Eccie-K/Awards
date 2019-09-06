@@ -20,11 +20,8 @@ Esther Kirui
 
 |   Behaviour   |   Input                       |   Output                          |
 |   ----------  | ----                          |   -------                         |
-| Signup        |  Username,password,and email  |     Takes user to login page      |
-|   --------    |   -------------------------   |   --------                        |
-|  Login        |  Username, Password           | redirected to mainpage page       | 
-|   -------     |   ------------------          |   ---------------------           |
-|  
+| Signup        |  Username,password,and email  |     Takes user to login page      |               |  Login        |  Username, Password           | redirected to mainpage page       | 
+
 
 
 <h2>Set Up Instructions and Requirements</h2>
