@@ -12,6 +12,7 @@ urlpatterns = [
      url(r"^profile/", views.profile, name="profile"),
      url(r"^project/(?P<project_id>[0-9])$", views.project, name="project"),
      
+     
 ]
 
 if settings.DEBUG:
