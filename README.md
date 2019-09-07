@@ -24,7 +24,7 @@ Esther Kirui
 | Submit project site                           | Scroll on homepage and click on submit| Redirects to submission page       |    
 | View actual project                           | click on view site                   | redirects to project site
 |   View Profile                                |  Click on Profile                     |  User's profile information         |
-|                   
+|  Get out of your Profile                      | Click on logout                       | Redirected to Signup/login page|                   
                                                            
 
 
