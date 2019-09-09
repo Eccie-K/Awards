@@ -8,6 +8,7 @@ from django.conf import settings
 urlpatterns = [
      url(r"^$", views.signup, name="signup"),
      url(r"^index/", views.index, name="index"),
+     url(r"^home/",views.home, name="home"),
      url(r"^upload/", views.upload, name="upload"),
      url(r"^profile/", views.profile, name="profile"),
      url(r"^project/(?P<project_id>[0-9])$", views.project, name="project"),

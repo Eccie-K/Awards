@@ -1,4 +1,6 @@
-{% load static %} {{block.super}} {{form.media}} 
+{% load static %} 
+{{block.super}} 
+{{form.media}} 
 
 <link rel="stylesheet" href="{% static 'star-ratings/css/star-ratings.css' %}">
 <script type="text/javascript" src="{% static 'star-ratings/js/dist/star-ratings.min.js' %}"></script>
@@ -43,7 +45,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto mt-5">
-                    <h1 class="mb-5">Submit • Rate • Review</h1>
+                    <h1 class="mb-5">Submit • Review • Rate</h1>
                 </div>
                 <div class="col-xl-12 mx-auto order-now my-padding">
                     <a href="/upload">SUBMIT SITE!</a>

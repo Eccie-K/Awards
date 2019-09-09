@@ -14,6 +14,9 @@ def index(request):
 
     return render(request, "index.html", locals())
 
+def home (request):
+    
+    return render(request, "index.html", locals())
 
 def signup(request):
     if request.method == "POST":
