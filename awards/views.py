@@ -26,7 +26,7 @@ def signup(request):
             return render(request, "registration/login.html/")
     else:
         form = SignupForm()
-    return render(request, "registration/signup.html", {"form": form})
+    return render(request, "registration/registration_form.html", {"form": form})
 
 
 def profile(request):
