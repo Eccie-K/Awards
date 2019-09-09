@@ -1,12 +1,13 @@
 {% load bootstrap3 %}
-{% block styles %} 
-{% bootstrap_css %}
-
-<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
-{% endblock %}
 {% include 'material/includes/material_css.html' %}
 {% include 'material/includes/material_js.html' %}
 {% load material_form %}
+
+{% block styles %} {% bootstrap_css %}
+
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <div class="container">
   <div class="row">
